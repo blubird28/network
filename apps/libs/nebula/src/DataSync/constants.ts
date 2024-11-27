@@ -1,0 +1,18 @@
+export const CONVERTER_SERVICE_TOKEN_PREFIX = 'DATA_SYNC_CONVERTER';
+export const MANAGER_TOKEN_PREFIX = 'DATA_SYNC_MANAGER';
+export const FETCHER_SERVICE_TOKEN_PREFIX = 'DATA_SYNC_FETCHER';
+export const WRAPPER_QUERY = 'Query';
+export const WRAPPER_SOURCE = 'Source';
+export const WRAPPER_TARGET = 'Target';
+export const WRAPPER_TASK = 'Task';
+export const WRAPPER_RESULT = 'Result';
+export const DEFAULT_QUEUE_TIMEOUT = 60 * 1000;
+export const DEFAULT_QUEUE_ALL_DONE_TIMEOUT = 10;
+export const DEFAULT_SYNC_CONCURRENCY = 5;
+export const DEFAULT_FETCH_CONCURRENCY = 5;
+export const DATA_SYNC_CONVERTER_METADATA_KEY = Symbol.for(
+  'DATA_SYNC_CONVERTER_METADATA_KEY',
+);
+export const DATA_SYNC_FETCHER_METADATA_KEY = Symbol.for(
+  'DATA_SYNC_FETCHER_METADATA_KEY',
+);

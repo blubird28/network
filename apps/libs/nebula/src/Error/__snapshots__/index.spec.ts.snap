@@ -1,0 +1,1752 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Errors ASNNotFoundError 1`] = `
+Object {
+  "code": "network.asn_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.network.asn_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BackoffFailedIncrementingError 1`] = `
+Object {
+  "code": "crm-sync.backoff_failed_incrementing",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.crm-sync.backoff_failed_incrementing",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BackoffLimitExceededError 1`] = `
+Object {
+  "code": "crm-sync.backoff_limit_exceeded",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.crm-sync.backoff_limit_exceeded",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BillingAccountAssociatedWithBillingEntityError 1`] = `
+Object {
+  "code": "billing_account.billing_account_associated_with_billing_entity",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.billing_account.billing_account_associated_with_billing_entity",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BillingAccountFailedBPError 1`] = `
+Object {
+  "code": "billing_account.billing_account_failed_bp",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.billing_account_failed_bp",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BillingAccountFailedShieldError 1`] = `
+Object {
+  "code": "billing_account.billing_account_failed_shield",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.billing_account_failed_shield",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BillingAccountUpdateFailedError 1`] = `
+Object {
+  "code": "billing_account.billing_account_update_failed",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.billing_account_update_failed",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BillingEntityFoundError 1`] = `
+Object {
+  "code": "billing_account.billing_entity_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.billing_account.billing_entity_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BillingEntityNotFoundError 1`] = `
+Object {
+  "code": "billing_account.no_billing_entity_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.billing_account.no_billing_entity_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BpAPITimeoutError 1`] = `
+Object {
+  "code": "billing_account.bp_timeout",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 504,
+  "message": "error.billing_account.bp_timeout",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BpCardNotFoundError 1`] = `
+Object {
+  "code": "billing_account.bp_active_card_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.billing_account.bp_active_card_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors BpDeleteCardFailedError 1`] = `
+Object {
+  "code": "billing_account.bp_delete_card_failed",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.bp_delete_card_failed",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors CRMSyncErrorError 1`] = `
+Object {
+  "code": "crm-sync.crm_sync_error",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.crm-sync.crm_sync_error",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors CannotCompileSchemaError 1`] = `
+Object {
+  "code": "pricing.cannot_compile_schema",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.pricing.cannot_compile_schema",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors CannotDeallocatePublicASNError 1`] = `
+Object {
+  "code": "network.cannot_deallocate_public_asn",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.network.cannot_deallocate_public_asn",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors CannotSyncASNNotReferencedError 1`] = `
+Object {
+  "code": "network.cannot_sync_asn_not_referenced",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.network.cannot_sync_asn_not_referenced",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors CannotSyncPrivateASNError 1`] = `
+Object {
+  "code": "network.cannot_sync_private_asn",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.network.cannot_sync_private_asn",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors CheckpointNotFoundError 1`] = `
+Object {
+  "code": "pricing.checkpoint_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.pricing.checkpoint_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors CompanyNotFoundError 1`] = `
+Object {
+  "code": "identity.company_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.identity.company_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors DataSyncConverterNotFoundError 1`] = `
+Object {
+  "code": "common.data_sync_converter_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.data_sync_converter_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors DataSyncFetcherNotFoundError 1`] = `
+Object {
+  "code": "common.data_sync_fetcher_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.data_sync_fetcher_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors DatabaseErrorError 1`] = `
+Object {
+  "code": "common.database_error",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.database_error",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors DomainNotFoundError 1`] = `
+Object {
+  "code": "search.domain_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.search.domain_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors DuplicatePrivateASNError 1`] = `
+Object {
+  "code": "network.duplicate_private_asn",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.network.duplicate_private_asn",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors EmailExistsError 1`] = `
+Object {
+  "code": "identity.email_exists",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.identity.email_exists",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors EmailTemplateNotFoundError 1`] = `
+Object {
+  "code": "notification.email_template_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.notification.email_template_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors EnricherDoesNotExistError 1`] = `
+Object {
+  "code": "common.enricher_does_not_exist",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.enricher_does_not_exist",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors EnrichmentFailedError 1`] = `
+Object {
+  "code": "common.enrichment_failed",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.enrichment_failed",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors EnrichmentKeyClashError 1`] = `
+Object {
+  "code": "common.enrichment_key_clash",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.common.enrichment_key_clash",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors FailedAccessCheckError 1`] = `
+Object {
+  "code": "common.failed_access_check",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 403,
+  "message": "error.common.failed_access_check",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors FailedToCompileTemplateError 1`] = `
+Object {
+  "code": "common.failed_to_compile_template",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.failed_to_compile_template",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors FailedToExecuteTemplateError 1`] = `
+Object {
+  "code": "common.failed_to_execute_template",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.failed_to_execute_template",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors FailedToFetchTokenError 1`] = `
+Object {
+  "code": "common.failed_to_fetch_token",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.failed_to_fetch_token",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors FailedToHandleNotificationError 1`] = `
+Object {
+  "code": "notification.failed_to_handle_notification",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.notification.failed_to_handle_notification",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors FailedToResolveEnricherParamsError 1`] = `
+Object {
+  "code": "common.failed_to_resolve_enricher_params",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.failed_to_resolve_enricher_params",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors FailedToResolveNotificationParamsError 1`] = `
+Object {
+  "code": "notification.failed_to_resolve_notification_params",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.notification.failed_to_resolve_notification_params",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors Falls back to Unknown 1`] = `
+Object {
+  "code": "common.unknown",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.unknown",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors HandlerDoesNotExistError 1`] = `
+Object {
+  "code": "notification.handler_does_not_exist",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.notification.handler_does_not_exist",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InsightSubscriptionDetailNotFoundError 1`] = `
+Object {
+  "code": "subscription.insight_subscription_detail_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.subscription.insight_subscription_detail_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InsightSubscriptionIdNotFoundError 1`] = `
+Object {
+  "code": "subscription.insight_subscription_id_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.subscription.insight_subscription_id_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidASNFormatError 1`] = `
+Object {
+  "code": "network.invalid_asn_format",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.network.invalid_asn_format",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidAsnRequestedForAllocationError 1`] = `
+Object {
+  "code": "network.invalid_asn_requested_for_validation",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.network.invalid_asn_requested_for_validation",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidBaseProductOfferingIdError 1`] = `
+Object {
+  "code": "subscription.invalid_base_product_offering_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_base_product_offering_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidBillingAccountError 1`] = `
+Object {
+  "code": "billing_account.invalid_billing_account",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 422,
+  "message": "error.billing_account.invalid_billing_account",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidBillingAccountIdError 1`] = `
+Object {
+  "code": "subscription.invalid_billing_account_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_billing_account_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidBillingCompanyIdError 1`] = `
+Object {
+  "code": "billing_account.invalid_billing_company_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.billing_account.invalid_billing_company_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidCRMIdsError 1`] = `
+Object {
+  "code": "billing_account.invalid_crm_ids",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 422,
+  "message": "error.billing_account.invalid_crm_ids",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidCompanyIdError 1`] = `
+Object {
+  "code": "subscription.invalid_company_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_company_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidCompanyNameError 1`] = `
+Object {
+  "code": "subscription.invalid_company_name",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_company_name",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidCustomerIdError 1`] = `
+Object {
+  "code": "billing_account.invalid_customer_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.billing_account.invalid_customer_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidEmailError 1`] = `
+Object {
+  "code": "identity.invalid_email",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.identity.invalid_email",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidEntityIdError 1`] = `
+Object {
+  "code": "identity.invalid_entityid",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.identity.invalid_entityid",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidEntityTypeError 1`] = `
+Object {
+  "code": "invalid_entity_type",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.invalid_entity_type",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidInsightSubscriptionDataError 1`] = `
+Object {
+  "code": "subscription.invalid_insight_subscription_data",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_insight_subscription_data",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidLinknetSizeError 1`] = `
+Object {
+  "code": "network.invalid_linknet_size",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.network.invalid_linknet_size",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidMappingStateError 1`] = `
+Object {
+  "code": "crm-sync.invalid_mapping_state",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.crm-sync.invalid_mapping_state",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidMongoIdError 1`] = `
+Object {
+  "code": "identity.invalid_mongoid",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.identity.invalid_mongoid",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidOrderDisplayIdError 1`] = `
+Object {
+  "code": "subscription.invalid_order_display_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_order_display_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidOrderIdError 1`] = `
+Object {
+  "code": "subscription.invalid_order_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_order_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidOrderIdORSalesRecordIdError 1`] = `
+Object {
+  "code": "subscription.invalid_order_id_or_sales_record_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_order_id_or_sales_record_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidOrderNameError 1`] = `
+Object {
+  "code": "subscription.invalid_order_name",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_order_name",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidPackageIdError 1`] = `
+Object {
+  "code": "subscription.invalid_package_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_package_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidPackageProductIdError 1`] = `
+Object {
+  "code": "subscription.invalid_package_product_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_package_product_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidPaginationError 1`] = `
+Object {
+  "code": "common.invalid_pagination",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.common.invalid_pagination",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidParameterError 1`] = `
+Object {
+  "code": "search.invalid_parameter",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.search.invalid_parameter",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidParameterValueError 1`] = `
+Object {
+  "code": "search.invalid_parameter_value",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.search.invalid_parameter_value",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidPayloadMatcherError 1`] = `
+Object {
+  "code": "notification.invalid_payload_matcher",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.notification.invalid_payload_matcher",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidPriceIdError 1`] = `
+Object {
+  "code": "pricing.invalid_price_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.pricing.invalid_price_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidPriceRequestIdError 1`] = `
+Object {
+  "code": "pricing.invalid_price_requestid",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.pricing.invalid_price_requestid",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidProcessInstanceIdError 1`] = `
+Object {
+  "code": "subscription.invalid_process_instance_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_process_instance_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidProductIdError 1`] = `
+Object {
+  "code": "subscription.invalid_product_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_product_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidProductNameError 1`] = `
+Object {
+  "code": "subscription.invalid_product_name",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_product_name",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidProductOfferingIdError 1`] = `
+Object {
+  "code": "subscription.invalid_product_offering_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_product_offering_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidRelationshipDefinitionVerbError 1`] = `
+Object {
+  "code": "identity.invalid_relationship_definition_verb",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.identity.invalid_relationship_definition_verb",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidRelationshipIdError 1`] = `
+Object {
+  "code": "identity.invalid_relationshipid",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.identity.invalid_relationshipid",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidRequestBodyError 1`] = `
+Object {
+  "code": "billing_account.invalid_request_body",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.billing_account.invalid_request_body",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidServiceIdError 1`] = `
+Object {
+  "code": "subscription.invalid_service_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_service_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidSubscriptionActionError 1`] = `
+Object {
+  "code": "subscription.invalid_subscription_action",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_subscription_action",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidSubscriptionDataError 1`] = `
+Object {
+  "code": "subscription.invalid_subscription_data",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 422,
+  "message": "error.subscription.invalid_subscription_data",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidSubscriptionError 1`] = `
+Object {
+  "code": "subscription.invalid_subscription",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_subscription",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidSubscriptionIdError 1`] = `
+Object {
+  "code": "subscription.invalid_subscription_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_subscription_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidSubscriptionProductAttributeDetailsIdError 1`] = `
+Object {
+  "code": "subscription.invalid_subscription_product_attribute_details_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_subscription_product_attribute_details_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidSubscriptionProductDetailsIdError 1`] = `
+Object {
+  "code": "subscription.invalid_subscription_product_details_id",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_subscription_product_details_id",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidSubscriptionProductMappingDataError 1`] = `
+Object {
+  "code": "subscription.invalid_subscription_product_mapping_data",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_subscription_product_mapping_data",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidTemplateError 1`] = `
+Object {
+  "code": "notification.invalid_template",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.notification.invalid_template",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidUUIDSubscriptionProductMappingDataError 1`] = `
+Object {
+  "code": "subscription.invalid_uuid_subscription_product_mapping_data",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.invalid_uuid_subscription_product_mapping_data",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidUserIdError 1`] = `
+Object {
+  "code": "identity.invalid_userid",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.identity.invalid_userid",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidUserPriceRequestAttributesError 1`] = `
+Object {
+  "code": "pricing.invalid_attributes",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.pricing.invalid_attributes",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidUsernameError 1`] = `
+Object {
+  "code": "identity.invalid_username",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.identity.invalid_username",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors InvalidValidationConfigError 1`] = `
+Object {
+  "code": "network.invalid_validation_config",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.network.invalid_validation_config",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors MultipleErrors 1`] = `
+Object {
+  "code": "common.multiple_errors",
+  "data": Object {
+    "errors": Array [
+      Object {
+        "code": "common.unknown",
+        "data": Object {},
+        "httpStatus": 500,
+        "message": "error.common.unknown",
+        "transactionId": "-",
+      },
+      Object {
+        "code": "identity.company_not_found",
+        "data": Object {},
+        "httpStatus": 404,
+        "message": "error.identity.company_not_found",
+        "transactionId": "-",
+      },
+      Object {
+        "code": "common.invalid_pagination",
+        "data": Object {},
+        "httpStatus": 400,
+        "message": "error.common.invalid_pagination",
+        "transactionId": "-",
+      },
+    ],
+    "messages": "error.common.unknown; error.identity.company_not_found; error.common.invalid_pagination",
+  },
+  "httpStatus": 500,
+  "message": "error.common.multiple_errors",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoBillingAccountCreatedError 1`] = `
+Object {
+  "code": "billing_account.no_billing_account_created",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.no_billing_account_created",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoBillingAccountFoundBPError 1`] = `
+Object {
+  "code": "billing_account.no_billing_account_found_bp",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.billing_account.no_billing_account_found_bp",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoBillingAccountFoundError 1`] = `
+Object {
+  "code": "billing_account.no_billing_account_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.billing_account.no_billing_account_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoBillingAccountFoundShieldError 1`] = `
+Object {
+  "code": "billing_account.no_billing_account_found_shield",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.billing_account.no_billing_account_found_shield",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoBillingEntityCreatedError 1`] = `
+Object {
+  "code": "billing_account.no_billing_entity_created",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.no_billing_entity_created",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoBillingEntityDeletedError 1`] = `
+Object {
+  "code": "billing_account.no_billing_entity_deleted",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.no_billing_entity_deleted",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoBillingEntityUpdatedError 1`] = `
+Object {
+  "code": "billing_account.no_billing_entity_updated",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.no_billing_entity_updated",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoBodyFoundEnricherConfigUpdateError 1`] = `
+Object {
+  "code": "subscription.subscription_enricher_config_no_body_found_to_update",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.subscription_enricher_config_no_body_found_to_update",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoEnricherConfigUpdatedError 1`] = `
+Object {
+  "code": "subscription.subscription_enricher_config_not_updated",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.subscription.subscription_enricher_config_not_updated",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoInsightSubscriptionUpdatedError 1`] = `
+Object {
+  "code": "subscription.insight_subscription_not_updated",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.subscription.insight_subscription_not_updated",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoPriceAvailableError 1`] = `
+Object {
+  "code": "pricing.no_price_available",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.pricing.no_price_available",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoSubscriptionCreatedError 1`] = `
+Object {
+  "code": "subscription.no_subscription_created",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.subscription.no_subscription_created",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoSubscriptionFetchedError 1`] = `
+Object {
+  "code": "subscription.no_subscription_fetched",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.subscription.no_subscription_fetched",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoSubscriptionProductMappingCreatedError 1`] = `
+Object {
+  "code": "subscription.no_subscription_product_mapping_created",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.subscription.no_subscription_product_mapping_created",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoSuitableIpBlocksError 1`] = `
+Object {
+  "code": "network.no_suitable_ip_blocks",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.network.no_suitable_ip_blocks",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoUsableASNsError 1`] = `
+Object {
+  "code": "network.no_usable_asns",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.network.no_usable_asns",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NoValidBillingAccountFoundError 1`] = `
+Object {
+  "code": "billing_account.no_valid_billing_account_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.no_valid_billing_account_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NotFoundByIdsError 1`] = `
+Object {
+  "code": "common.not_found_by_ids",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.common.not_found_by_ids",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NotFoundError 1`] = `
+Object {
+  "code": "common.not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.common.not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NotificationEnricherHandlerInvalidError 1`] = `
+Object {
+  "code": "notification.notification_enricher_handler_invalid",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.notification.notification_enricher_handler_invalid",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors NotificationHandlerInvalidError 1`] = `
+Object {
+  "code": "notification.notification_handler_invalid",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.notification.notification_handler_invalid",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors PermissionDeniedError 1`] = `
+Object {
+  "code": "subscription.permission_denied",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 403,
+  "message": "error.subscription.permission_denied",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors PriceEnrichHandlerInvalidError 1`] = `
+Object {
+  "code": "pricing.price_enrich_handler_invalid",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.pricing.price_enrich_handler_invalid",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors PriceNotFoundError 1`] = `
+Object {
+  "code": "pricing.price_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.pricing.price_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors PriceRequestExistsError 1`] = `
+Object {
+  "code": "pricing.price_request_exists",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.pricing.price_request_exists",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors PriceRequestNotFoundError 1`] = `
+Object {
+  "code": "pricing.price_request_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.pricing.price_request_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors ProfileExistsError 1`] = `
+Object {
+  "code": "identity.profile_exists",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.identity.profile_exists",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors ProfileNotFoundError 1`] = `
+Object {
+  "code": "identity.profile_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.identity.profile_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors RelationshipDefinitionAlreadyExistsError 1`] = `
+Object {
+  "code": "identity.relationship_definition_already_exists",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.identity.relationship_definition_already_exists",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors RelationshipDefinitionNotFoundError 1`] = `
+Object {
+  "code": "identity.relationship_definition_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.identity.relationship_definition_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors RelationshipNotFoundError 1`] = `
+Object {
+  "code": "identity.relationship_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.identity.relationship_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors ResourceIsBeingUsedError 1`] = `
+Object {
+  "code": "network.resource_is_being_used",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.network.resource_is_being_used",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors SendgridErrorError 1`] = `
+Object {
+  "code": "notification.sendgrid_error",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.notification.sendgrid_error",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors ShieldAPITimeoutError 1`] = `
+Object {
+  "code": "billing_account.shield_timeout",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 504,
+  "message": "error.billing_account.shield_timeout",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors SubscriptionAlreadyTerminatedError 1`] = `
+Object {
+  "code": "subscription.subscription_already_terminated",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.subscription_already_terminated",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors SubscriptionAttributeEnrichHandlerInvalidError 1`] = `
+Object {
+  "code": "subscription.subscription_attribute_enrichment_handler_invalid",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.subscription.subscription_attribute_enrichment_handler_invalid",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors SubscriptionEnricherConfigNotFoundError 1`] = `
+Object {
+  "code": "subscription.subscription_enricher_config_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.subscription.subscription_enricher_config_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors SubscriptionNotFoundError 1`] = `
+Object {
+  "code": "subscription.subscription_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.subscription.subscription_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors SubscriptionProductMappingNotFoundError 1`] = `
+Object {
+  "code": "subscription.subscription_product_mapping_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.subscription.subscription_product_mapping_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors SyncBillingAccountFailedError 1`] = `
+Object {
+  "code": "billing_account.sync_billing_account_failed",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.billing_account.sync_billing_account_failed",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors TimeoutError 1`] = `
+Object {
+  "code": "common.request_timeout",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 408,
+  "message": "error.common.request_timeout",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UnauthorizedError 1`] = `
+Object {
+  "code": "common.unauthorized",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 401,
+  "message": "error.common.unauthorized",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UnimplementedJobError 1`] = `
+Object {
+  "code": "common.unimplemented_job",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.unimplemented_job",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UnknownError 1`] = `
+Object {
+  "code": "common.unknown",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.unknown",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UnmatchedASNError 1`] = `
+Object {
+  "code": "network.unmatched_asn",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.network.unmatched_asn",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UnmatchedASSetError 1`] = `
+Object {
+  "code": "network.unmatched_as_set",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.network.unmatched_as_set",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UnserializedDataError 1`] = `
+Object {
+  "code": "common.unserialized_data",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 500,
+  "message": "error.common.unserialized_data",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UnsupportedDataSyncQueryError 1`] = `
+Object {
+  "code": "identity.unsupported_data_sync_query",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.identity.unsupported_data_sync_query",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UsageOverCapabilityLimitError 1`] = `
+Object {
+  "code": "network.usage_over_capability_limit",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.network.usage_over_capability_limit",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UsagesExistForResourceError 1`] = `
+Object {
+  "code": "network.usages_exist_for_resource",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 409,
+  "message": "error.network.usages_exist_for_resource",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors UserNotFoundError 1`] = `
+Object {
+  "code": "identity.user_not_found",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 404,
+  "message": "error.identity.user_not_found",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors ValidationFailedError 1`] = `
+Object {
+  "code": "common.validation_failed",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.common.validation_failed",
+  "transactionId": "-",
+}
+`;
+
+exports[`Errors ZeroDomainsError 1`] = `
+Object {
+  "code": "search.zero_domains",
+  "data": Object {
+    "foo": "bar",
+  },
+  "httpStatus": 400,
+  "message": "error.search.zero_domains",
+  "transactionId": "-",
+}
+`;

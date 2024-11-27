@@ -1,0 +1,13 @@
+export const REST_CHECKPOINT_PREFIX = 'admin/checkpoint';
+export const REST_CHECKPOINT_HISTORY_PATH = '/history';
+export const REST_PRICE_REQUEST_PREFIX = 'admin/price-request';
+export const REST_BY_PRICE_REQUEST_ID_PATH = '/:id';
+export const REST_CALCULATE_PREFIX = 'calculate';
+export const REST_PRICING_PREFIX = 'pricing';
+export const REST_PRICE_PREFIX = 'admin/price';
+export const REST_BY_PRICE_ID_PATH = '/:id';
+export const REST_DECISION_DEFINITION_PREFIX = 'decision-definition';
+export const REST_EVALUATE_PATH = '/key/:key/evaluate';
+export const REST_PRICE_ENRICH_CONFIG_PREFIX = 'admin/enrichment/config';
+export const REST_PRICE_ENRICH_CONFIG_ID_PATH = ':configId';
+export const PRICING_SERVICE_TOKEN = Symbol.for('PRICING_SERVICE_TOKEN');

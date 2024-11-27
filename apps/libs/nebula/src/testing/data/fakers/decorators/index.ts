@@ -1,0 +1,11 @@
+export { createFakerDecorator } from './createFakerDecorator';
+export { DeepFake } from './DeepFake';
+export { DeepFakeMany } from './DeepFakeMany';
+export { Fake } from './Fake';
+export { FakeDate } from './FakeDate';
+export { FakeEmail } from './FakeEmail';
+export { FakeObjectId } from './FakeObjectId';
+export { FakeUuid } from './FakeUuid';
+export { Faker } from './Faker';
+export { IntersectionFaker } from './IntersectionFaker';
+export { MaybeDeepFake } from './MaybeDeepFake';
